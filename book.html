@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Now | Kanna Catering Services & Mahal</title>
+<link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+<section class="booking">
+
+    <div class="booking-box">
+
+        <h1>Book Your Event</h1>
+        <p>Reserve your special day with Kanna Catering Services & Mahal.</p>
+
+        <form id="bookingForm">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="tel" id="phone" placeholder="Mobile Number" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="date" id="date" required>
+
+            <select id="event">
+                <option>Select Event Type</option>
+                <option>Wedding Catering</option>
+                <option>Birthday Party</option>
+                <option>Engagement Function</option>
+                <option>Baby Shower</option>
+                <option>Anniversary Celebration</option>
+                <option>Corporate Event</option>
+                <option>Outdoor Catering</option>
+                <option>Function Mahal</option>
+            </select>
+
+            <input type="number" id="guests" placeholder="Number of Guests">
+
+            <textarea id="message" placeholder="Additional Requirements"></textarea>
+
+            <button type="submit">Book Now</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<script src="book.js"></script>
+
+</body>
+</html>
